@@ -1,0 +1,5 @@
+[
+    {"_id": 0, "brand": "bmw","model": "e36","hp":260,"nm":320,"img":"https://cdn3.focus.bg/autodata/i/bmw/3er/3er-e36/large/f5acc53c6539b6962ba2791446421a64.jpg"},
+    {"_id": 1, "brand": "mercedes","model": "w140","hp":320,"nm":400 ,"img":"https://autobild.bg/wp-content/uploads/2021/02/Mercedes-600-SEL-W-140-1010x567-852948756c9b137c.jpg"},
+    {"_id": 2, "brand": "cadillac","model": "escalade","hp":370,"nm":500 ,"img":"https://www.auto-data.net/images/f89/Cadillac-Escalade-V.jpg"}
+]
