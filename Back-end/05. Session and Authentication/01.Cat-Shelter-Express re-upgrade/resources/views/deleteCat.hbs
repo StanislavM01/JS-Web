@@ -1,0 +1,14 @@
+<main>
+    <h1>Delete Cat</h1>
+    <div class="form">
+        <form action="/cats/{{_id}}/delete" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="{{name}}" disabled="true" />
+            <label for="description">Description</label>
+            <textarea id="description" name="description" disabled="true" />{{description}}</textarea>
+            <label for="image">Image</label>
+            <img src="{{upload}}" alt="">
+            <input type="submit" value="Delete">
+        </form>
+    </div>
+</main>

@@ -1,0 +1,15 @@
+<main>
+    <h1>Cat Shelter</h1>
+    <form action="/cats/search" method="get">
+        <input type="text" name="textInput">
+        <button>Search</button>
+    </form>
+
+    <section class="cats">
+        <ul>
+            {{#each allCats}}
+            {{> cat}}
+            {{/each}}
+        </ul>
+    </section>
+</main>

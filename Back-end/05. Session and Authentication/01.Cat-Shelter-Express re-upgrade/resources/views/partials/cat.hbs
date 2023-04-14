@@ -1,0 +1,16 @@
+<li>
+    <img src={{upload}} alt="Black Cat">
+    <h3>{{name}}</h3>
+    <p><span>Breed: </span>{{breed}}</p>
+    <p><span>Description: </span> {{description}}</p>
+    <ul class="buttons">
+        {{#if isOwner}}
+        <li class="btn edit"><a href="/cats/{{_id}}/edit">Change Info</a></li>
+        <li class="btn edit"><a href="/cats/{{_id}}/accessory/details">Accessory</a></li>
+        <li class="btn delete"><a href="/cats/{{_id}}/delete">Delete</a></li>
+        
+    
+        {{/if}}
+    </ul>
+
+</li>

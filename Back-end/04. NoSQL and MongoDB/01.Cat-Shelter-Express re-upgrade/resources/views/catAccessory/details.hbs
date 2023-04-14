@@ -1,0 +1,23 @@
+<h1>{{name}}</h1>
+<img class="cube" src={{upload}}>
+<div class="details">
+    <p><span>Description:</span>{{description}}</p>
+    <p><span>Breed:</span> {{breed}}</p>
+    <a class="btn" href="/" style="background-color:Tomato">Back</a>
+    <a class="btn" href="/cats/{{_id}}/accessory/add" style="background-color:DodgerBlue">Add Accessory</a>
+</div>
+
+<h2>Accessories</h2>
+<div class="accessories">
+    {{#each accessories}}
+    <div class="accessory">
+        <img src={{imageUrl}} alt="stickerName">
+        <h3>{{name}}</h3>
+        <p>{{description}}</p>
+    </div>
+    {{else}}
+    <h3 class="italic">This cat has no accessories yet...</h3>
+    {{/each}}
+
+
+</div>

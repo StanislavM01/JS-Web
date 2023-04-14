@@ -1,0 +1,23 @@
+{
+  "name": "05.-session-and-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./Cat-Shelter-express/resources/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "uniqid": "^5.4.0"
+  }
+}
